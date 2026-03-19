@@ -134,7 +134,7 @@ export const siteContent = {
     shortPrice: "$65",
     description:
       "Daily creatine support recast as a warm ginger honey ritual. 30 single-serve sachets.",
-    buttonLabel: "Reserve Continua Rise - $65",
+    buttonLabel: "Checkout - $65",
     details: [
       "30 single-serve sachets",
       "5g creatine monohydrate per serving",
@@ -165,17 +165,17 @@ export const siteContent = {
       },
     ],
     waitlist: {
-      title: "The first Rise release is spoken for.",
+      title: "Batch 007 is Sold Out.",
       body:
-        "The demand for a creatine ritual that actually feels made for women has already exhausted our initial Rise allocation.",
+        "The demand for clinical-grade, transparent formulations for women has completely overwhelmed our current production run. Batch 007 allocation is exhausted.",
       subtext:
-        "Enter your email for a private notification 24 hours before the next Continua Rise release. We do not spam.",
+        "Batch 008 is currently in production. Enter your email to receive a private notification 24 hours before the next public drop. We do not spam.",
       inputLabel: "Email address",
       inputPlaceholder: "Enter Email Address",
-      actionLabel: "Notify Me For The Next Rise Release",
-      successTitle: "You're on the Rise list.",
+      actionLabel: "Notify Me For Batch 008",
+      successTitle: "You're on the Batch 008 list.",
       successBody:
-        "We will only use this address for the next private Continua Rise release notification.",
+        "We will only use this address for the private Batch 008 notification.",
     },
   },
   science: {
