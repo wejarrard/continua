@@ -59,12 +59,12 @@ export type MediaAsset = {
   alt: string;
   src?: string;
   variant:
-    | "powder"
-    | "product-box"
-    | "sachet-mug"
-    | "label-panel"
-    | "science-wave"
-    | "portrait";
+  | "powder"
+  | "product-box"
+  | "sachet-mug"
+  | "label-panel"
+  | "science-wave"
+  | "portrait";
 };
 
 export type Citation = {
@@ -150,8 +150,6 @@ export const siteContent = {
     defaultSocialImage: "/og-risebycontinua.png",
     defaultSocialImageAlt:
       "Continua Rise product image styled for social sharing and search previews.",
-    footerNote:
-      "Educational information only. Review all product claims for medical, advertising, and regulatory compliance before launch.",
   },
   navigation: [
     { label: "Shop", href: "/shop" },
