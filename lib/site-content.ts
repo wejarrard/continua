@@ -207,9 +207,9 @@ export const siteContent = {
   doctorNote: {
     eyebrow: "The doctor's note",
     title: "Why I recommend Continua Rise.",
-    signoff: "-- Dr. [Name], MD. Co-Founder, Continua.",
+    signoff: "-- Dr. Mollie Kane, MD. Co-Founder, Continua.",
     portrait: {
-      alt: "Portrait placeholder for Continua's physician co-founder.",
+      alt: "Portrait placeholder for Dr. Mollie Kane, Continua's physician co-founder.",
       variant: "portrait",
     } satisfies MediaAsset,
     paragraphs: [
