@@ -37,8 +37,8 @@ export default function HomePage() {
                 {hero.action.label}
               </Link>
               <p className="max-w-sm text-sm leading-6 text-[color:rgba(30,33,30,0.56)]">
-                Clinically dosed creatine monohydrate in a warm ginger honey
-                sachet built for daily consistency.
+                Daily creatine support for women, delivered in a warm ginger
+                honey ritual designed to be easy to love.
               </p>
             </div>
           </div>
@@ -72,8 +72,8 @@ export default function HomePage() {
                 {transparency.pullQuote}
               </p>
               <p className="text-sm leading-6 text-[color:rgba(30,33,30,0.56)]">
-                We kept the dose and redesigned the habit around warmth,
-                flavor, and adherence.
+                Designed to support women's strength, clarity, and consistency
+                through one grounded daily ritual.
               </p>
             </div>
           </div>

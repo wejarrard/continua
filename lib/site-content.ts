@@ -73,7 +73,7 @@ export const siteContent = {
     eyebrow: "Clinical ritual / radical transparency",
     title: "Continua | Continua Rise for women who want the real dose.",
     description:
-      "Continua Rise delivers 5g of creatine monohydrate in a warm ginger honey ritual designed for women who want clinical support without sports-powder baggage.",
+      "Continua Rise delivers 5g of creatine monohydrate in a warm ginger honey ritual for women who want daily strength, clarity, and clinical support they can feel good about keeping.",
     footerNote:
       "Educational information only. Review all product claims for medical, advertising, and regulatory compliance before launch.",
   },
@@ -90,7 +90,7 @@ export const siteContent = {
     hero: {
       title: "Continua Rise. 5g Creatine. Warm start.",
       body:
-        "The daily sachet built around clinically dosed creatine monohydrate, now recast as a warm ginger honey ritual. No fluorescent tubs. No proprietary blends. Just the dose women actually want, in a format that feels like a morning reset instead of another supplement chore.",
+        "A warm ginger honey ritual built around clinically dosed creatine monohydrate for women who want to support strength, clarity, and consistency every day. Continua Rise turns daily creatine into a morning habit that feels grounding, polished, and easy to keep.",
       action: {
         label: "Secure Continua Rise - $65",
         href: "/shop#buy-box",
@@ -102,16 +102,16 @@ export const siteContent = {
     },
     transparency: {
       eyebrow: "Radical transparency",
-      title: "We rebuilt the ritual, not the science.",
+      title: "Built for the way women actually live.",
       body:
-        "You probably associate creatine with 20-year-old male bodybuilders. We did, too. But the clinical literature tells a different story. Creatine monohydrate is one of the most rigorously tested molecules on earth for supporting muscle maintenance, structural resilience, and cognitive performance in women as hormones shift. Continua Rise keeps the exact clinical dose and discards the gym-culture packaging. The result is a warmer ginger honey ritual that makes daily consistency feel natural.",
-      pullQuote: "Clinical dose. Warm ritual. Nothing hidden.",
+        "Creatine monohydrate is one of the most rigorously studied compounds for supporting muscle maintenance, structural resilience, and cognitive performance in women as hormones shift. Continua Rise delivers that exact clinical dose in a warm ginger honey ritual designed to feel elegant, approachable, and worth repeating every morning.",
+      pullQuote: "Daily strength. Warm ritual. Clear support.",
     },
     ingredients: {
       eyebrow: "The formula",
       title: "Creatine does the work. Rise makes it easier to keep.",
       note:
-        'Zero artificial sweeteners. Zero proprietary blends. Zero fluorescent wellness theater.',
+        "Clinically dosed. Warmly flavored. Designed for daily consistency.",
       items: [
         {
           amount: "5,000mg",
@@ -133,7 +133,7 @@ export const siteContent = {
     price: "$65.00",
     shortPrice: "$65",
     description:
-      "Daily creatine support recast as a warm ginger honey ritual. 30 single-serve sachets.",
+      "A 30-day creatine ritual for women who want daily support with warmth, ease, and consistency.",
     buttonLabel: "Checkout - $65",
     details: [
       "30 single-serve sachets",
@@ -167,9 +167,9 @@ export const siteContent = {
     waitlist: {
       title: "Batch 007 is Sold Out.",
       body:
-        "The demand for clinical-grade, transparent formulations for women has completely overwhelmed our current production run. Batch 007 allocation is exhausted.",
+        "Batch 007 has been fully claimed by women building Continua Rise into their daily routine.",
       subtext:
-        "Batch 008 is currently in production. Enter your email to receive a private notification 24 hours before the next public drop. We do not spam.",
+        "Batch 008 is currently in production. Enter your email to receive a private notification 24 hours before the next public drop.",
       inputLabel: "Email address",
       inputPlaceholder: "Enter Email Address",
       actionLabel: "Notify Me For Batch 008",
@@ -184,9 +184,9 @@ export const siteContent = {
     sections: [
       {
         eyebrow: "The biology of energy",
-        title: "Creatine is still the engine.",
+        title: "Creatine supports the benefits women care about.",
         body:
-          "Continua Rise is not built around a stimulant story. It is built around the exact 5g dose of creatine monohydrate. As hormones shift in our 50s, our cells lose efficiency in producing ATP (Adenosine Triphosphate), the literal energy currency of the body. Daily creatine gives those cells the substrate they need to regenerate ATP more effectively. The ginger honey ritual changes the experience of taking it. The underlying biology is still the same cellular fuel story.",
+          "Continua Rise is built around the exact 5g dose of creatine monohydrate because that is where the strongest support for women begins. As hormones shift in our 50s, our cells lose efficiency in producing ATP (Adenosine Triphosphate), the body's energy currency. Daily creatine helps regenerate ATP more effectively, supporting muscle maintenance, cognitive performance, and the kind of physical resilience women want to protect over time.",
         media: {
           alt: "Abstract line art evoking cellular energy production.",
           variant: "science-wave",
@@ -194,9 +194,9 @@ export const siteContent = {
       },
       {
         eyebrow: "The ritual question",
-        title: "Yes, Rise still belongs in hot water.",
+        title: "Warm water makes the ritual easy to keep.",
         body:
-          "A common myth is that heat destroys supplements. Creatine monohydrate is highly heat-stable, and warm water remains an elegant delivery mechanism for daily use. It helps the powder dissolve cleanly and supports the ginger honey flavor profile that defines Continua Rise. No chalky sludge at the bottom of the mug. Just a smooth, warm ritual that makes daily adherence easier.",
+          "Creatine monohydrate is highly heat-stable, which makes warm water an elegant delivery mechanism for daily use. It helps the powder dissolve cleanly and supports the ginger honey flavor profile that defines Continua Rise. The result is a smooth, warm ritual that feels calming in the moment and makes consistency far easier over time.",
         media: {
           alt: "An abstract illustration of warm water dissolving a daily sachet.",
           variant: "sachet-mug",
@@ -214,8 +214,8 @@ export const siteContent = {
     } satisfies MediaAsset,
     paragraphs: [
       '"As a physician, I read the clinical studies on longevity and physical maintenance daily. The data on creatine\'s ability to support bone density and cognitive function in older women is undeniable.',
-      "But when I looked at the market, I could not in good conscience recommend any of the existing products to my patients. The industry forced women to choose between massive tubs of sports powder filled with blue dyes, or 'women's wellness' gummies that contained a fraction of the necessary clinical dose.",
-      "Continua Rise is the product I wanted for my patients, and for myself. We did not reinvent the molecule; we rebuilt the ritual around it. We kept the exact 5-gram clinical dose, removed the nonsense, and turned it into a warm ginger honey experience women can reach for every single morning.\"",
+      "Women deserve a creatine ritual that respects both the science and the experience of daily use. That means delivering the exact clinical dose in a format that feels supportive, polished, and easy to return to each morning.",
+      "Continua Rise is the product I wanted for my patients, and for myself. We kept the exact 5-gram clinical dose and built it into a warm ginger honey experience women can reach for every single morning with confidence and consistency.\"",
     ],
   },
   medicalDisclaimer: {
