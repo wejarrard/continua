@@ -16,13 +16,12 @@ export default function ShopPage() {
     <main className="pb-24 pt-10 sm:pt-14">
       <section id="buy-box" className="page-shell scroll-mt-28">
         <div className="mb-10 max-w-3xl space-y-4">
-          <p className="eyebrow">The drop test</p>
+          <p className="eyebrow">The Rise drop</p>
           <p className="display-title text-5xl leading-[0.9] sm:text-6xl">
             {product.title}
           </p>
           <p className="max-w-2xl text-lg leading-8 text-[color:rgba(30,33,30,0.72)]">
-            Formulated for daily use to support cellular energy and structural
-            integrity. 30 single-serve sachets.
+            {product.description}
           </p>
         </div>
 

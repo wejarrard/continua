@@ -140,7 +140,7 @@ export function WaitlistModal({
 
         {submitted ? (
           <div className="space-y-5 pr-10">
-            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-[var(--continua-sage-deep)]">
+            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-[var(--continua-amber-deep)]">
               Private notification
             </p>
             <h2
@@ -159,7 +159,7 @@ export function WaitlistModal({
         ) : (
           <div className="space-y-6 pr-10">
             <div className="space-y-4">
-              <p className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-[var(--continua-sage-deep)]">
+              <p className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-[var(--continua-amber-deep)]">
                 Batch access
               </p>
               <h2
@@ -202,7 +202,7 @@ export function WaitlistModal({
                 autoComplete="email"
                 aria-invalid={error ? "true" : "false"}
                 aria-describedby={error ? errorId : descriptionId}
-                className="w-full rounded-[1.2rem] border border-[color:rgba(30,33,30,0.14)] bg-[rgba(245,242,235,0.6)] px-4 py-4 text-base text-[var(--continua-charcoal)] outline-none transition placeholder:text-[color:rgba(30,33,30,0.36)] focus:border-[var(--continua-sage-deep)] focus:bg-white"
+                className="w-full rounded-[1.2rem] border border-[color:rgba(30,33,30,0.14)] bg-[rgba(249,239,227,0.7)] px-4 py-4 text-base text-[var(--continua-charcoal)] outline-none transition placeholder:text-[color:rgba(30,33,30,0.36)] focus:border-[var(--continua-amber-deep)] focus:bg-white"
               />
               {error ? (
                 <p

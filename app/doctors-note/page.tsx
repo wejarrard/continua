@@ -31,7 +31,7 @@ export default function DoctorsNotePage() {
                 <p key={paragraph}>{paragraph}</p>
               ))}
             </div>
-            <p className="mt-8 text-sm font-semibold uppercase tracking-[0.22em] text-[var(--continua-sage-deep)]">
+            <p className="mt-8 text-sm font-semibold uppercase tracking-[0.22em] text-[var(--continua-amber-deep)]">
               {doctorNote.signoff}
             </p>
           </article>

@@ -5,7 +5,7 @@ import { MediaFrame } from "@/components/media-frame";
 import { siteContent } from "@/lib/site-content";
 
 export const metadata: Metadata = {
-  title: "5g Creatine. 2g Matcha. Nothing else.",
+  title: "Continua Rise. 5g Creatine. Warm start.",
   description: siteContent.home.hero.body,
 };
 
@@ -18,7 +18,7 @@ export default function HomePage() {
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,0.98fr)] lg:items-stretch">
           <div className="surface-card flex flex-col justify-between p-8 sm:p-10 lg:p-14">
             <div className="space-y-8">
-              <p className="eyebrow">The no B.S. pitch</p>
+              <p className="eyebrow">The rise ritual</p>
               <div className="space-y-6">
                 <h1 className="display-title text-5xl leading-[0.9] sm:text-6xl lg:text-7xl">
                   {hero.title}
@@ -37,8 +37,8 @@ export default function HomePage() {
                 {hero.action.label}
               </Link>
               <p className="max-w-sm text-sm leading-6 text-[color:rgba(30,33,30,0.56)]">
-                Clinically dosed creatine monohydrate plus ceremonial matcha,
-                packed into a single morning sachet.
+                Clinically dosed creatine monohydrate in a warm ginger honey
+                sachet built for daily consistency.
               </p>
             </div>
           </div>
@@ -72,8 +72,8 @@ export default function HomePage() {
                 {transparency.pullQuote}
               </p>
               <p className="text-sm leading-6 text-[color:rgba(30,33,30,0.56)]">
-                We removed the sports powder language and kept the dose, the
-                ritual, and the reason.
+                We kept the dose and redesigned the habit around warmth,
+                flavor, and adherence.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function HomePage() {
                   className="grid gap-3 py-6 sm:grid-cols-[minmax(0,0.34fr)_minmax(0,0.66fr)] sm:gap-8"
                 >
                   <div>
-                    <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--continua-sage-deep)]">
+                    <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--continua-amber-deep)]">
                       {item.amount}
                     </p>
                     <h3 className="mt-3 font-display text-3xl leading-tight text-[var(--continua-charcoal)]">

@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --continua-alabaster: #f5f2eb;
-  --continua-ivory: #fbf8f2;
-  --continua-stone: #ded6ca;
-  --continua-sage: #849581;
-  --continua-sage-deep: #677662;
-  --continua-charcoal: #1e2120;
+  --continua-alabaster: #f9efe3;
+  --continua-ivory: #fff8f2;
+  --continua-stone: #e8d3bd;
+  --continua-honey: #d8a15f;
+  --continua-amber: #c67633;
+  --continua-amber-deep: #96461f;
+  --continua-charcoal: #241714;
 }
 
 @theme inline {
@@ -29,11 +30,16 @@ body {
   margin: 0;
   background:
     radial-gradient(
-      circle at top,
-      rgba(255, 255, 255, 0.62),
+      circle at top left,
+      rgba(255, 248, 239, 0.92),
       rgba(255, 255, 255, 0) 30rem
     ),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)),
+    radial-gradient(
+      circle at 82% 12%,
+      rgba(216, 161, 95, 0.18),
+      rgba(255, 255, 255, 0) 22rem
+    ),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0)),
     var(--continua-alabaster);
   color: var(--continua-charcoal);
   font-family: var(--font-body), sans-serif;
@@ -54,12 +60,12 @@ select {
 }
 
 ::selection {
-  background: rgba(132, 149, 128, 0.22);
+  background: rgba(198, 118, 51, 0.22);
   color: var(--continua-charcoal);
 }
 
 :focus-visible {
-  outline: 2px solid rgba(103, 118, 98, 0.72);
+  outline: 2px solid rgba(150, 70, 31, 0.72);
   outline-offset: 3px;
 }
 
@@ -96,9 +102,9 @@ select {
   border-radius: 2rem;
   border: 1px solid rgba(30, 33, 30, 0.08);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.64)),
-    rgba(251, 248, 242, 0.7);
-  box-shadow: 0 26px 80px rgba(30, 33, 30, 0.08);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 247, 238, 0.72)),
+    rgba(255, 250, 245, 0.74);
+  box-shadow: 0 28px 90px rgba(71, 39, 21, 0.1);
   backdrop-filter: blur(16px);
 }
 

@@ -70,10 +70,10 @@ export type MediaAsset = {
 export const siteContent = {
   site: {
     name: "Continua",
-    eyebrow: "Clinical luxury / radical transparency",
-    title: "Continua | Matcha + Creatine for women who want the real dose.",
+    eyebrow: "Clinical ritual / radical transparency",
+    title: "Continua | Continua Rise for women who want the real dose.",
     description:
-      "Continua pairs 5g of creatine monohydrate with 2g of ceremonial matcha in a daily sachet engineered for structural support, functional muscle, and cognitive clarity.",
+      "Continua Rise delivers 5g of creatine monohydrate in a warm ginger honey ritual designed for women who want clinical support without sports-powder baggage.",
     footerNote:
       "Educational information only. Review all product claims for medical, advertising, and regulatory compliance before launch.",
   },
@@ -88,30 +88,30 @@ export const siteContent = {
   },
   home: {
     hero: {
-      title: "5g Creatine. 2g Matcha. Nothing else.",
+      title: "Continua Rise. 5g Creatine. Warm start.",
       body:
-        "The daily sachet engineered to preserve female bone density, maintain functional muscle, and clear cognitive fog. No proprietary blends. No marketing fluff. Just the clinical dose you need, in the morning ritual you already love.",
+        "The daily sachet built around clinically dosed creatine monohydrate, now recast as a warm ginger honey ritual. No fluorescent tubs. No proprietary blends. Just the dose women actually want, in a format that feels like a morning reset instead of another supplement chore.",
       action: {
-        label: "Secure Batch 001 - $65",
+        label: "Secure Continua Rise - $65",
         href: "/shop#buy-box",
       },
       media: {
-        alt: "A sage sachet spilling white creatine and green matcha onto marble.",
+        alt: "A warm amber Continua Rise sachet spilling creatine beside a ginger-honey toned cup.",
         variant: "powder",
       } satisfies MediaAsset,
     },
     transparency: {
       eyebrow: "Radical transparency",
-      title: "We took the science out of the gym.",
+      title: "We rebuilt the ritual, not the science.",
       body:
-        "You probably associate creatine with 20-year-old male bodybuilders. We did, too. But the clinical literature tells a different story. Creatine monohydrate is one of the most rigorously tested molecules on earth for combating menopausal brain fog and age-related muscle loss. We stripped away the neon plastic tubs, the artificial sweeteners, and the aggressive fitness branding. We just put the exact clinical dose into a premium organic matcha. Just add hot water.",
-      pullQuote: "Clinical dose. Organic matcha. Hot water. Nothing hidden.",
+        "You probably associate creatine with 20-year-old male bodybuilders. We did, too. But the clinical literature tells a different story. Creatine monohydrate is one of the most rigorously tested molecules on earth for supporting muscle maintenance, structural resilience, and cognitive performance in women as hormones shift. Continua Rise keeps the exact clinical dose and discards the gym-culture packaging. The result is a warmer ginger honey ritual that makes daily consistency feel natural.",
+      pullQuote: "Clinical dose. Warm ritual. Nothing hidden.",
     },
     ingredients: {
-      eyebrow: "The ingredients",
-      title: "Two inputs. Zero theater.",
+      eyebrow: "The formula",
+      title: "Creatine does the work. Rise makes it easier to keep.",
       note:
-        'Zero artificial sweeteners. Zero fillers. Zero "proprietary" secrets.',
+        'Zero artificial sweeteners. Zero proprietary blends. Zero fluorescent wellness theater.',
       items: [
         {
           amount: "5,000mg",
@@ -120,62 +120,62 @@ export const siteContent = {
             "Replenishes cellular ATP to support memory retention, bone mineral density, and functional muscle preservation.",
         },
         {
-          amount: "2,000mg",
-          name: "Organic Ceremonial Matcha",
+          amount: "Daily ritual",
+          name: "Warm Ginger Honey Profile",
           body:
-            "Sourced from Uji, Japan. Delivers a gentle, jitter-free lift of L-theanine and antioxidants for calm, sustained focus.",
+            "A comforting ginger honey profile designed to make clinical-dose creatine something you actually look forward to drinking every morning.",
         },
       ],
     },
   },
   product: {
-    title: "Continua: Matcha + Creatine (30-Day Supply)",
+    title: "Continua Rise (30-Day Supply)",
     price: "$65.00",
     shortPrice: "$65",
     description:
-      "Formulated for daily use to support cellular energy and structural integrity. 30 single-serve sachets.",
-    buttonLabel: "Add to Cart - $65",
+      "Daily creatine support recast as a warm ginger honey ritual. 30 single-serve sachets.",
+    buttonLabel: "Reserve Continua Rise - $65",
     details: [
       "30 single-serve sachets",
       "5g creatine monohydrate per serving",
-      "2g ceremonial matcha per serving",
+      "Ginger honey flavor profile",
       "Designed for hot water",
     ],
     gallery: [
       {
-        title: "30-day dispenser box",
+        title: "Continua Rise 30-day box",
         asset: {
-          alt: "Continua 30-day dispenser box.",
+          alt: "Continua Rise 30-day dispenser box.",
           variant: "product-box",
         } satisfies MediaAsset,
       },
       {
-        title: "Single sachet beside a steaming mug",
+        title: "Single sachet beside a warm cup",
         asset: {
-          alt: "A single Continua sachet next to a steaming mug.",
+          alt: "A single Continua Rise sachet next to a warm mug.",
           variant: "sachet-mug",
         } satisfies MediaAsset,
       },
       {
-        title: "Minimal two-ingredient back label",
+        title: "Minimal Rise back panel",
         asset: {
-          alt: "The back of the Continua box showing the two-ingredient label.",
+          alt: "The back of the Continua Rise box showing the product panel.",
           variant: "label-panel",
         } satisfies MediaAsset,
       },
     ],
     waitlist: {
-      title: "Batch 001 is Sold Out.",
+      title: "The first Rise release is spoken for.",
       body:
-        "The demand for clinical-grade, transparent formulations for women has completely overwhelmed our initial production run. Batch 001 allocation is exhausted.",
+        "The demand for a creatine ritual that actually feels made for women has already exhausted our initial Rise allocation.",
       subtext:
-        "Batch 002 is currently in production. Enter your email to receive a private notification 24 hours before the next public drop. We do not spam.",
+        "Enter your email for a private notification 24 hours before the next Continua Rise release. We do not spam.",
       inputLabel: "Email address",
       inputPlaceholder: "Enter Email Address",
-      actionLabel: "Notify Me For Batch 002",
-      successTitle: "You're on the Batch 002 list.",
+      actionLabel: "Notify Me For The Next Rise Release",
+      successTitle: "You're on the Rise list.",
       successBody:
-        "We will only use this address for the private Batch 002 notification.",
+        "We will only use this address for the next private Continua Rise release notification.",
     },
   },
   science: {
@@ -184,21 +184,21 @@ export const siteContent = {
     sections: [
       {
         eyebrow: "The biology of energy",
-        title: "Caffeine borrows energy. ATP creates it.",
+        title: "Creatine is still the engine.",
         body:
-          "While our ceremonial matcha provides a gentle lift, the true engine of Continua is the creatine monohydrate. As hormones shift in our 50s, our cells lose their efficiency in producing ATP (Adenosine Triphosphate) - the literal energy currency of the human body. By providing your cells with a daily 5g dose of pure creatine, you are giving your body the direct biological building blocks it needs to regenerate ATP. It is not a stimulant. It is actual, cellular fuel.",
+          "Continua Rise is not built around a stimulant story. It is built around the exact 5g dose of creatine monohydrate. As hormones shift in our 50s, our cells lose efficiency in producing ATP (Adenosine Triphosphate), the literal energy currency of the body. Daily creatine gives those cells the substrate they need to regenerate ATP more effectively. The ginger honey ritual changes the experience of taking it. The underlying biology is still the same cellular fuel story.",
         media: {
           alt: "Abstract line art evoking cellular energy production.",
           variant: "science-wave",
         } satisfies MediaAsset,
       },
       {
-        eyebrow: "The heat question",
-        title: "Yes, it belongs in hot water.",
+        eyebrow: "The ritual question",
+        title: "Yes, Rise still belongs in hot water.",
         body:
-          "A common myth is that heat destroys supplements. Creatine monohydrate is highly heat-stable. In fact, hot water is the optimal delivery mechanism. It maximizes the solubility of the crystal, ensuring the powder dissolves completely clear. No chalky texture, no clumping at the bottom of the mug. Just a perfectly smooth, highly bioavailable morning ritual.",
+          "A common myth is that heat destroys supplements. Creatine monohydrate is highly heat-stable, and warm water remains an elegant delivery mechanism for daily use. It helps the powder dissolve cleanly and supports the ginger honey flavor profile that defines Continua Rise. No chalky sludge at the bottom of the mug. Just a smooth, warm ritual that makes daily adherence easier.",
         media: {
-          alt: "An abstract illustration of heat and dissolution in a cup.",
+          alt: "An abstract illustration of warm water dissolving a daily sachet.",
           variant: "sachet-mug",
         } satisfies MediaAsset,
       },
@@ -206,7 +206,7 @@ export const siteContent = {
   },
   doctorNote: {
     eyebrow: "The doctor's note",
-    title: "Why I recommend this exact pairing.",
+    title: "Why I recommend Continua Rise.",
     signoff: "-- Dr. [Name], MD. Co-Founder, Continua.",
     portrait: {
       alt: "Portrait placeholder for Continua's physician co-founder.",
@@ -215,7 +215,7 @@ export const siteContent = {
     paragraphs: [
       '"As a physician, I read the clinical studies on longevity and physical maintenance daily. The data on creatine\'s ability to support bone density and cognitive function in older women is undeniable.',
       "But when I looked at the market, I could not in good conscience recommend any of the existing products to my patients. The industry forced women to choose between massive tubs of sports powder filled with blue dyes, or 'women's wellness' gummies that contained a fraction of the necessary clinical dose.",
-      "Continua is the product I wanted for my patients, and for myself. We did not reinvent the molecule; we just removed the nonsense. We took the exact 5-gram clinical dose and paired it with organic matcha so you can take it effortlessly, every single morning.\"",
+      "Continua Rise is the product I wanted for my patients, and for myself. We did not reinvent the molecule; we rebuilt the ritual around it. We kept the exact 5-gram clinical dose, removed the nonsense, and turned it into a warm ginger honey experience women can reach for every single morning.\"",
     ],
   },
   medicalDisclaimer: {

@@ -36,9 +36,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${playfairDisplay.variable}`}>
         <div className="relative min-h-screen overflow-x-clip">
-          <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[32rem] bg-[radial-gradient(circle_at_top,rgba(132,149,128,0.16),transparent_42%),linear-gradient(180deg,rgba(255,255,255,0.34),rgba(255,255,255,0))]" />
-          <div className="pointer-events-none absolute left-[-8rem] top-[28rem] -z-10 h-72 w-72 rounded-full bg-[rgba(132,149,128,0.12)] blur-[130px]" />
-          <div className="pointer-events-none absolute right-[-6rem] top-[68rem] -z-10 h-72 w-72 rounded-full bg-[rgba(30,33,30,0.08)] blur-[120px]" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[32rem] bg-[radial-gradient(circle_at_top,rgba(216,161,95,0.24),transparent_40%),linear-gradient(180deg,rgba(255,255,255,0.38),rgba(255,255,255,0))]" />
+          <div className="pointer-events-none absolute left-[-8rem] top-[26rem] -z-10 h-72 w-72 rounded-full bg-[rgba(198,118,51,0.14)] blur-[130px]" />
+          <div className="pointer-events-none absolute right-[-6rem] top-[68rem] -z-10 h-72 w-72 rounded-full bg-[rgba(112,59,28,0.12)] blur-[120px]" />
 
           <SiteHeader />
           <div className="relative z-10">{children}</div>

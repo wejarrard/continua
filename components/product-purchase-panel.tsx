@@ -37,7 +37,7 @@ export function ProductPurchasePanel({
       <aside className="surface-card lg:sticky lg:top-28">
         <div className="space-y-6 p-7 sm:p-8">
           <div className="space-y-3">
-            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-[var(--continua-sage-deep)]">
+            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.24em] text-[var(--continua-amber-deep)]">
               Buy box
             </p>
             <h1 className="font-display text-4xl leading-[0.96] tracking-[-0.05em] text-[var(--continua-charcoal)] sm:text-[2.9rem]">
