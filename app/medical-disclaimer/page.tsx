@@ -1,17 +1,28 @@
 import type { Metadata } from "next";
 
+import { StructuredData } from "@/components/structured-data";
+import { buildMetadata, buildWebPageSchema } from "@/lib/seo";
 import { siteContent } from "@/lib/site-content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: siteContent.medicalDisclaimer.title,
   description: siteContent.medicalDisclaimer.intro,
-};
+  path: "/medical-disclaimer",
+  noIndex: true,
+});
 
 export default function MedicalDisclaimerPage() {
   const { medicalDisclaimer } = siteContent;
 
   return (
     <main className="pb-24 pt-10 sm:pt-14">
+      <StructuredData
+        data={buildWebPageSchema({
+          title: siteContent.medicalDisclaimer.title,
+          description: siteContent.medicalDisclaimer.intro,
+          path: "/medical-disclaimer",
+        })}
+      />
       <section className="page-shell max-w-4xl">
         <div className="space-y-4">
           <p className="eyebrow">Legal</p>

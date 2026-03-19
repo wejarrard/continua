@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
 
 import { MediaFrame } from "@/components/media-frame";
+import { StructuredData } from "@/components/structured-data";
+import { buildMetadata, buildWebPageSchema } from "@/lib/seo";
 import { siteContent } from "@/lib/site-content";
 
-export const metadata: Metadata = {
-  title: "Doctor's Note",
-  description: siteContent.doctorNote.paragraphs[0],
-};
+export const metadata: Metadata = buildMetadata(siteContent.doctorNote.seo);
 
 export default function DoctorsNotePage() {
   const { doctorNote } = siteContent;
 
   return (
     <main className="pb-24 pt-10 sm:pt-14">
+      <StructuredData
+        data={buildWebPageSchema({
+          title: siteContent.doctorNote.seo.title,
+          description: siteContent.doctorNote.seo.description,
+          path: siteContent.doctorNote.seo.path,
+        })}
+      />
       <section className="page-shell">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:items-start">
           <MediaFrame

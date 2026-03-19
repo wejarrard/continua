@@ -35,7 +35,7 @@ export function FAQAccordion({ items }: FAQAccordionProps) {
               </span>
               <span
                 className={cn(
-                  "flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[color:rgba(166,145,92,0.22)] bg-white/70 text-xl text-[var(--continua-slate)] transition-transform",
+                  "flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[color:rgba(166,145,92,0.22)] bg-white/70 text-xl text-[var(--continua-amber-deep)] transition-transform",
                   isOpen && "rotate-45",
                 )}
               >

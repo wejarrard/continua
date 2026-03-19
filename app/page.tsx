@@ -1,19 +1,25 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { StructuredData } from "@/components/structured-data";
 import { MediaFrame } from "@/components/media-frame";
+import { buildMetadata, buildWebPageSchema } from "@/lib/seo";
 import { siteContent } from "@/lib/site-content";
 
-export const metadata: Metadata = {
-  title: "Continua Rise. 5g Creatine. Warm start.",
-  description: siteContent.home.hero.body,
-};
+export const metadata: Metadata = buildMetadata(siteContent.home.seo);
 
 export default function HomePage() {
   const { hero, transparency, ingredients } = siteContent.home;
 
   return (
     <main className="pb-24 pt-8 sm:pt-12">
+      <StructuredData
+        data={buildWebPageSchema({
+          title: siteContent.home.seo.title,
+          description: siteContent.home.seo.description,
+          path: siteContent.home.seo.path,
+        })}
+      />
       <section className="page-shell">
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,0.98fr)] lg:items-stretch">
           <div className="surface-card flex flex-col justify-between p-8 sm:p-10 lg:p-14">
@@ -72,7 +78,8 @@ export default function HomePage() {
                 {transparency.pullQuote}
               </p>
               <p className="text-sm leading-6 text-[color:rgba(30,33,30,0.56)]">
-                Designed to support women's strength, clarity, and consistency
+                Designed to support women&apos;s strength, clarity, and
+                consistency
                 through one grounded daily ritual.
               </p>
             </div>
