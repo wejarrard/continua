@@ -146,6 +146,8 @@ export const siteContent = {
     title: "Continua | Continua Rise for women who want the real dose.",
     description:
       "Continua Rise delivers 5g of creatine monohydrate in a warm ginger honey ritual for Gen X women who want daily strength, clarity, and clinical support they can feel good about keeping.",
+    footerNote:
+      "Educational information only. Review all product claims for medical, advertising, and regulatory compliance before launch.",
     url: "https://risebycontinua.com",
     defaultSocialImage: "/og-risebycontinua.png",
     defaultSocialImageAlt:
