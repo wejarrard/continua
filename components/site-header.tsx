@@ -22,7 +22,7 @@ export function SiteHeader() {
               href="/"
               className="font-display text-3xl leading-none tracking-[-0.06em] text-[var(--continua-charcoal)] sm:text-4xl"
             >
-              {siteContent.site.name}
+              Continua
             </Link>
             <p className="mt-2 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-[color:rgba(30,33,30,0.54)]">
               {siteContent.site.eyebrow}
