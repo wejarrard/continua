@@ -180,7 +180,6 @@ export const siteContent = {
   navigation: [
     { label: "Shop", href: "/shop" },
     { label: "Science", href: "/science" },
-    { label: "Doctor's Note", href: "/doctors-note" },
     { label: "Journal", href: "/journal" },
   ] satisfies NavItem[],
   footer: {
