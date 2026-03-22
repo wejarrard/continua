@@ -206,7 +206,7 @@ export const siteContent = {
       body:
         "A lavender hibiscus night ritual built around a clinically familiar 5g creatine dose and 320mg magnesium glycinate for women who want to support strength, recovery, and consistency without adding another harsh PM routine. Restore turns evening supplementation into something calm, polished, and easy to keep.",
       action: {
-        label: "Secure Restore - $65",
+        label: "Secure Restore - $70",
         href: "/shop#buy-box",
       },
       media: {
@@ -263,12 +263,12 @@ export const siteContent = {
       ],
     },
     title: "Restore by Continua (30-Day Supply)",
-    price: "$65.00",
-    shortPrice: "$65",
-    priceValue: 65,
+    price: "$70.00",
+    shortPrice: "$70",
+    priceValue: 70,
     description:
       "A 30-day evening ritual for women who want a clinically familiar creatine dose paired with 320mg magnesium glycinate, warmth, and consistency.",
-    buttonLabel: "Checkout - $65",
+    buttonLabel: "Checkout - $70",
     details: [
       "30 single-serve sachets",
       "5g creatine monohydrate per serving",
