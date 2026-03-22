@@ -228,7 +228,7 @@ export const siteContent = {
         "Clinically recognizable creatine. Evening-minded magnesium. Lavender hibiscus finish.",
       items: [
         {
-          amount: "5,000mg",
+          amount: "5 grams",
           name: "Pure Creatine Monohydrate",
           body:
             "A familiar daily dose used to support cellular energy, training adaptation, and the kind of strength and mental steadiness many women want to protect through midlife.",
