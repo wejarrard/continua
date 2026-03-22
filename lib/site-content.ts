@@ -137,21 +137,45 @@ const coreCitations = {
     note:
       "Evidence review addressing renal safety, water retention concerns, and common myths around creatine supplementation.",
   },
+  magnesiumFactSheet: {
+    title: "Magnesium - Consumer Fact Sheet",
+    href: "https://ods.od.nih.gov/factsheets/magnesium-consumer",
+    source: "NIH Office of Dietary Supplements",
+    note:
+      "Consumer-facing summary of magnesium's roles in muscle and nerve function, common intake guidance, supplement forms, and safety basics.",
+  },
+  magnesiumSleepReview: {
+    title:
+      "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8053283/",
+    source: "BMC Complementary Medicine and Therapies / PMC",
+    note:
+      "Systematic review finding possible benefit signals for insomnia symptoms, while emphasizing low-quality and mixed evidence.",
+  },
+  magnesiumBisglycinateTrial: {
+    title:
+      "Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412596/",
+    source: "Sleep and Vigilance / PMC",
+    note:
+      "Recent placebo-controlled trial reporting modest improvement in insomnia severity scores with magnesium bisglycinate in adults with poor sleep.",
+  },
 } as const;
 
 export const siteContent = {
   site: {
-    name: "Continua",
-    eyebrow: "Clinical ritual / radical transparency",
-    title: "Continua | Continua Rise for women who want the real dose.",
+    name: "Restore by Continua",
+    eyebrow: "Night ritual / clinical transparency",
+    title:
+      "Restore by Continua | Evening creatine + magnesium ritual for Gen X women.",
     description:
-      "Continua Rise delivers 5g of creatine monohydrate in a warm ginger honey ritual for Gen X women who want daily strength, clarity, and clinical support they can feel good about keeping.",
+      "Restore by Continua pairs 5g of creatine monohydrate with magnesium glycinate in a lavender hibiscus night ritual for Gen X women who want strength, recovery, and consistency they can actually keep.",
     footerNote:
       "Educational information only. Review all product claims for medical, advertising, and regulatory compliance before launch.",
     url: "https://risebycontinua.com",
     defaultSocialImage: "/og-risebycontinua.png",
     defaultSocialImageAlt:
-      "Continua Rise product image styled for social sharing and search previews.",
+      "Restore by Continua product image styled for social sharing and search previews.",
   },
   navigation: [
     { label: "Shop", href: "/shop" },
@@ -166,54 +190,60 @@ export const siteContent = {
   home: {
     seo: {
       path: "/",
-      title: "Creatine For Gen X Women",
+      title: "Night Creatine + Magnesium For Gen X Women",
       description:
-        "Continua Rise is a warm ginger honey creatine ritual for Gen X women who want daily strength, cognitive support, and consistency.",
+        "Restore by Continua is a lavender hibiscus night ritual with 5g creatine monohydrate and magnesium glycinate for Gen X women who want strength, recovery, and evening consistency.",
       keywords: [
-        "creatine for women",
-        "creatine for gen x women",
-        "creatine for women over 40",
-        "ginger honey creatine",
-        "daily creatine ritual",
+        "creatine for women at night",
+        "magnesium glycinate for women",
+        "night ritual supplement women",
+        "lavender hibiscus magnesium",
+        "restore by continua",
       ],
     },
     hero: {
-      title: "Continua Rise. 5g Creatine. Warm start.",
+      title: "Restore by Continua. 5g creatine. 320mg magnesium glycinate. Softer nights.",
       body:
-        "A warm ginger honey ritual built around clinically dosed creatine monohydrate for women who want to support strength, clarity, and consistency every day. Continua Rise turns daily creatine into a morning habit that feels grounding, polished, and easy to keep.",
+        "A lavender hibiscus night ritual built around a clinically familiar 5g creatine dose and 320mg magnesium glycinate for women who want to support strength, recovery, and consistency without adding another harsh PM routine. Restore turns evening supplementation into something calm, polished, and easy to keep.",
       action: {
-        label: "Secure Continua Rise - $65",
+        label: "Secure Restore - $65",
         href: "/shop#buy-box",
       },
       media: {
-        alt: "A warm amber Continua Rise sachet spilling creatine beside a ginger-honey toned cup.",
+        alt: "Restore by Continua sachet imagery styled for a lavender hibiscus evening ritual.",
         variant: "powder",
       } satisfies MediaAsset,
     },
     transparency: {
       eyebrow: "Radical transparency",
-      title: "Built for the way women actually live.",
+      title: "Built for the women who want a gentler landing.",
       body:
-        "Creatine monohydrate is one of the most rigorously studied compounds for supporting muscle maintenance, structural resilience, and cognitive performance in women as hormones shift. Continua Rise delivers that exact clinical dose in a warm ginger honey ritual designed to feel elegant, approachable, and worth repeating every morning.",
-      pullQuote: "Daily strength. Warm ritual. Clear support.",
+        "Creatine monohydrate remains one of the most rigorously studied supplementation options for supporting muscle maintenance, performance, and cognitive energy in women as hormones shift. Restore keeps that 5g anchor intact, then pairs it with 320mg magnesium glycinate and a softer evening format designed around repeatability rather than intensity.",
+      pullQuote: "Real dose. Softer ritual. Evening consistency.",
     },
     ingredients: {
       eyebrow: "The formula",
-      title: "Creatine does the work. Rise makes it easier to keep.",
+      title: "Two anchors. One better night ritual.",
       note:
-        "Clinically dosed. Warmly flavored. Designed for daily consistency.",
+        "Clinically recognizable creatine. Evening-minded magnesium. Lavender hibiscus finish.",
       items: [
         {
           amount: "5,000mg",
           name: "Pure Creatine Monohydrate",
           body:
-            "Replenishes cellular ATP to support memory retention, bone mineral density, and functional muscle preservation.",
+            "A familiar daily dose used to support cellular energy, training adaptation, and the kind of strength and mental steadiness many women want to protect through midlife.",
         },
         {
-          amount: "Daily ritual",
-          name: "Warm Ginger Honey Profile",
+          amount: "320mg",
+          name: "Magnesium Glycinate",
           body:
-            "A comforting ginger honey profile designed to make clinical-dose creatine something you actually look forward to drinking every morning.",
+            "A nightly magnesium dose chosen to align with the needs of women 31 and older, using a form often selected for evening routines because magnesium is involved in muscle and nerve function and is still being studied for sleep-related support.",
+        },
+        {
+          amount: "Night flavor",
+          name: "Lavender Hibiscus Profile",
+          body:
+            "A floral, tart profile that helps the ritual feel more like a wind-down cue than another obligation at the end of the day.",
         },
       ],
     },
@@ -221,146 +251,157 @@ export const siteContent = {
   product: {
     seo: {
       path: "/shop",
-      title: "Continua Rise",
+      title: "Restore by Continua",
       description:
-        "Shop Continua Rise, a 30-day creatine ritual for women with 5g creatine monohydrate per serving and a warm ginger honey profile.",
+        "Shop Restore by Continua, a 30-day evening ritual for women with 5g creatine monohydrate, 320mg magnesium glycinate, and a lavender hibiscus profile.",
       keywords: [
-        "creatine for women",
-        "best creatine for women",
-        "creatine ritual",
-        "continua rise",
-        "creatine for women over 40",
+        "creatine for women at night",
+        "magnesium glycinate women",
+        "restore by continua",
+        "night ritual supplement",
+        "supplements for women over 40",
       ],
     },
-    title: "Continua Rise (30-Day Supply)",
+    title: "Restore by Continua (30-Day Supply)",
     price: "$65.00",
     shortPrice: "$65",
     priceValue: 65,
     description:
-      "A 30-day creatine ritual for women who want daily support with warmth, ease, and consistency.",
+      "A 30-day evening ritual for women who want a clinically familiar creatine dose paired with 320mg magnesium glycinate, warmth, and consistency.",
     buttonLabel: "Checkout - $65",
     details: [
       "30 single-serve sachets",
       "5g creatine monohydrate per serving",
-      "Ginger honey flavor profile",
-      "Designed for hot water",
+      "320mg magnesium glycinate per serving",
+      "Lavender hibiscus flavor profile",
+      "Designed for warm water at night",
     ],
     gallery: [
       {
-        title: "Continua Rise 30-day box",
+        title: "Restore by Continua 30-day box",
         asset: {
-          alt: "Continua Rise 30-day dispenser box.",
+          alt: "Restore by Continua 30-day dispenser box.",
           variant: "product-box",
         } satisfies MediaAsset,
       },
       {
-        title: "Single sachet beside a warm cup",
+        title: "Single Restore sachet beside a warm cup",
         asset: {
-          alt: "A single Continua Rise sachet next to a warm mug.",
+          alt: "A single Restore by Continua sachet next to a warm mug.",
           variant: "sachet-mug",
         } satisfies MediaAsset,
       },
       {
-        title: "Minimal Rise back panel",
+        title: "Restore back panel",
         asset: {
-          alt: "The back of the Continua Rise box showing the product panel.",
+          alt: "The back of the Restore by Continua box showing the product panel.",
           variant: "label-panel",
         } satisfies MediaAsset,
       },
     ],
     waitlist: {
-      title: "Batch 007 is Sold Out.",
+      title: "The Restore launch batch is sold out.",
       body:
-        "Batch 007 has been fully claimed by women building Continua Rise into their daily routine.",
+        "The current Restore release has been fully claimed by women building it into their nighttime routine.",
       subtext:
-        "Batch 008 is currently in production. Enter your email to receive a private notification 24 hours before the next public drop.",
+        "Enter your email to receive a private notification 24 hours before the next Restore drop opens.",
       inputLabel: "Email address",
       inputPlaceholder: "Enter Email Address",
-      actionLabel: "Notify Me For Batch 008",
-      successTitle: "You're on the Batch 008 list.",
+      actionLabel: "Notify Me For The Next Drop",
+      successTitle: "You're on the Restore list.",
       successBody:
-        "We will only use this address for the private Batch 008 notification.",
+        "We will only use this address for the private Restore notification.",
     },
     faqs: [
       {
-        question: "What is Continua Rise?",
+        question: "What is Restore by Continua?",
         answer:
-          "Continua Rise is a daily creatine ritual for women. Each serving provides 5 grams of creatine monohydrate in a warm ginger honey format designed to be simple to keep every morning.",
+          "Restore by Continua is an evening ritual for women. Each serving provides 5 grams of creatine monohydrate paired with 320mg magnesium glycinate in a lavender hibiscus format designed to feel calm and easy to repeat at night.",
       },
       {
-        question: "Why does Continua Rise use 5 grams of creatine?",
+        question: "Why pair creatine with magnesium glycinate?",
         answer:
-          "Five grams is a familiar daily maintenance dose in creatine research and sports nutrition guidance. It is the dose Continua Rise uses to keep the product straightforward and clinically recognizable.",
+          "Creatine keeps the formula anchored to a clinically familiar daily dose, while 320mg magnesium glycinate supports the nighttime ritual positioning for this midlife-women audience. Magnesium is involved in muscle and nerve function and is being studied for sleep-related support, but Restore is positioned as a supportive evening ritual rather than a treatment product.",
       },
       {
-        question: "Is Continua Rise meant for women in midlife?",
+        question: "Is Restore meant for women in midlife?",
         answer:
-          "Yes. Continua Rise is positioned for Gen X and midlife women who want support for strength, consistency, and cognitive resilience as hormones shift over time.",
+          "Yes. Restore is positioned for Gen X and midlife women who want support for strength, recovery, and a better evening rhythm as hormones and energy patterns shift over time.",
       },
       {
-        question: "How should I take Continua Rise?",
+        question: "How should I take Restore?",
         answer:
-          "Continua Rise is designed for hot water. Stir one sachet into warm water as part of a daily morning routine.",
+          "Restore is designed for warm water. Stir one sachet into warm water as part of a consistent evening routine; the goal is repeatability, not a perfect minute on the clock.",
       },
     ] satisfies FAQItem[],
   },
   science: {
     seo: {
       path: "/science",
-      title: "The Science Of Creatine For Women",
+      title: "The Science Behind Restore",
       description:
-        "Explore the science behind creatine for women, including ATP support, daily dosing, and why a warm ritual can improve consistency.",
+        "Explore the science behind Restore by Continua, including creatine monohydrate, 320mg magnesium glycinate, evening routine consistency, and why format matters.",
       keywords: [
         "creatine science women",
-        "creatine cognition women",
-        "creatine menopause muscle",
-        "5g creatine women",
+        "magnesium glycinate science",
+        "creatine at night women",
+        "night routine supplement science",
       ],
     },
     title: "The Science",
     intro: "The validation",
     sections: [
       {
-        eyebrow: "The biology of energy",
-        title: "Creatine supports the benefits women care about.",
+        eyebrow: "The creatine anchor",
+        title: "Creatine still does the heavy lifting.",
         body:
-          "Continua Rise is built around the exact 5g dose of creatine monohydrate because that is where the strongest support for women begins. As hormones shift in our 50s, our cells lose efficiency in producing ATP (Adenosine Triphosphate), the body's energy currency. Daily creatine helps regenerate ATP more effectively, supporting muscle maintenance, cognitive performance, and the kind of physical resilience women want to protect over time.",
+          "Restore keeps the formula centered on 5 grams of creatine monohydrate because that remains the most familiar, well-studied form in sports nutrition and women's health discussions. For midlife women thinking about muscle maintenance, training resilience, and cognitive energy, consistency with creatine matters far more than whether it is taken in the morning or at night.",
         media: {
           alt: "Abstract line art evoking cellular energy production.",
           variant: "science-wave",
         } satisfies MediaAsset,
       },
       {
-        eyebrow: "The ritual question",
-        title: "Warm water makes the ritual easy to keep.",
+        eyebrow: "The magnesium context",
+        title: "Magnesium glycinate supports the evening frame.",
         body:
-          "Creatine monohydrate is highly heat-stable, which makes warm water an elegant delivery mechanism for daily use. It helps the powder dissolve cleanly and supports the ginger honey flavor profile that defines Continua Rise. The result is a smooth, warm ritual that feels calming in the moment and makes consistency far easier over time.",
+          "Magnesium is an essential mineral involved in muscle and nerve function, and sleep researchers continue to study whether supplementation can support better sleep outcomes in some adults. The evidence is still mixed, but Restore uses 320mg magnesium glycinate because it fits a calmer PM positioning and can be easier for many people to build into an evening habit.",
         media: {
-          alt: "An abstract illustration of warm water dissolving a daily sachet.",
+          alt: "Abstract illustration suggesting a calmer nighttime supplement ritual.",
+          variant: "sachet-mug",
+        } satisfies MediaAsset,
+      },
+      {
+        eyebrow: "The adherence advantage",
+        title: "The ritual itself helps women stay consistent.",
+        body:
+          "A product only works if it becomes part of real life. Restore uses warm water and a lavender hibiscus profile because the format matters: a softer evening moment can be easier to keep than another capsule stack or rushed shaker bottle. The science matters, but so does whether women actually come back to it every night.",
+        media: {
+          alt: "An abstract illustration of a warm evening cup and sachet ritual.",
           variant: "sachet-mug",
         } satisfies MediaAsset,
       },
     ],
     faqs: [
       {
-        question: "Why is creatine relevant for women over 40?",
+        question: "Why is creatine still relevant for women over 40?",
         answer:
           "Women in midlife face changes in muscle, bone, and cognition as estrogen shifts. Reviews focused on women's health describe creatine as a promising support strategy across these stages, especially when paired with resistance training and a repeatable daily habit.",
       },
       {
-        question: "Does creatine support cognition as well as strength?",
+        question: "Is there a perfect time to take creatine?",
         answer:
-          "Current reviews in women's health and aging discuss creatine as relevant to both muscle performance and cognitive function, which is why Continua frames it as more than a gym-only supplement.",
+          "Not usually. The stronger theme in creatine guidance is consistent daily intake, not a rigid clock-time rule, which is why Restore is built around the evening habit women are most likely to keep.",
       },
       {
-        question: "Does hot water damage creatine?",
+        question: "Does magnesium glycinate guarantee better sleep?",
         answer:
-          "Creatine monohydrate is considered heat-stable in common use, and warm water is often used to improve dissolution and make daily intake easier.",
+          "No. Magnesium is being studied for sleep-related outcomes and some trials show modest benefit, but the evidence is mixed and Restore should be framed as a supportive nighttime ritual rather than a treatment for insomnia.",
       },
       {
-        question: "Is creatine monohydrate the preferred form?",
+        question: "Is creatine monohydrate still the preferred form?",
         answer:
-          "The ISSN position stand identifies creatine monohydrate as the most studied and best-supported form of creatine supplementation, which is why Continua Rise keeps the formula centered there.",
+          "Yes. The ISSN position stand identifies creatine monohydrate as the most studied and best-supported form of creatine supplementation, which is why Restore keeps the formula centered there.",
       },
     ] satisfies FAQItem[],
     citations: [
@@ -368,6 +409,9 @@ export const siteContent = {
       coreCitations.womenBridge,
       coreCitations.issn,
       coreCitations.misconceptions,
+      coreCitations.magnesiumFactSheet,
+      coreCitations.magnesiumSleepReview,
+      coreCitations.magnesiumBisglycinateTrial,
     ] satisfies Citation[],
   },
   doctorNote: {
@@ -375,349 +419,203 @@ export const siteContent = {
       path: "/doctors-note",
       title: "Doctor's Note From Dr. Mollie Kane",
       description:
-        "Read Dr. Mollie Kane's perspective on why a daily creatine ritual matters for women navigating midlife strength, cognition, and consistency.",
+        "Read Dr. Mollie Kane's perspective on why Restore by Continua pairs creatine and 320mg magnesium glycinate inside a calmer nighttime ritual for women in midlife.",
       keywords: [
-        "doctor creatine women",
-        "dr mollie kane creatine",
+        "dr mollie kane restore by continua",
+        "doctor note magnesium glycinate women",
         "creatine for women over 40 doctor note",
       ],
     },
     eyebrow: "The doctor's note",
-    title: "Why I recommend Continua Rise.",
+    title: "Why I endorse Restore by Continua.",
     signoff: "-- Dr. Mollie Kane, MD. Co-Founder, Continua.",
     portrait: {
       alt: "Portrait placeholder for Dr. Mollie Kane, Continua's physician co-founder.",
       variant: "portrait",
     } satisfies MediaAsset,
     paragraphs: [
-      '"As a physician, I read the clinical studies on longevity and physical maintenance daily. The data on creatine\'s ability to support bone density and cognitive function in older women is undeniable.',
-      "Women deserve a creatine ritual that respects both the science and the experience of daily use. That means delivering the exact clinical dose in a format that feels supportive, polished, and easy to return to each morning.",
-      "Continua Rise is the product I wanted for my patients, and for myself. We kept the exact 5-gram clinical dose and built it into a warm ginger honey experience women can reach for every single morning with confidence and consistency.\"",
+      '"As a physician, I care less about trend cycles and more about what women can realistically keep. Creatine remains one of the most familiar, well-studied daily supports for muscle performance, physical resilience, and cognitive energy, especially in midlife when consistency matters more than novelty.',
+      "Restore by Continua was built to make that consistency easier at the end of the day. We kept the clear 5-gram creatine anchor, paired it with 320mg magnesium glycinate, and shaped the ritual around a calmer lavender hibiscus experience women can return to night after night.",
+      "I endorse Restore because it respects both the evidence and the lived reality of my patients. The formulation is grounded, the ritual is approachable, and the product meets women where they are instead of asking them to force one more aggressive wellness routine into an already full life.\"",
     ],
   },
   journal: {
     seo: {
       path: "/journal",
-      title: "Creatine Journal For Gen X Women",
+      title: "Restore Journal For Gen X Women",
       description:
-        "Answer-first guides on creatine for Gen X women, including strength, brain fog, daily dosing, and how to build a sustainable ritual.",
+        "Answer-first guides on Restore by Continua for Gen X women, including creatine at night, 320mg magnesium glycinate context, and how to build an evening ritual that lasts.",
       keywords: [
-        "creatine for gen x women",
-        "creatine for women over 40",
-        "creatine for brain fog",
-        "how to take creatine daily",
+        "restore by continua journal",
+        "creatine at night women",
+        "magnesium glycinate at night",
+        "night ritual women over 40",
       ],
     },
     eyebrow: "The journal",
-    title: "Creatine guidance for Gen X women who want the full picture.",
+    title: "Night ritual guidance for Gen X women who want the full picture.",
     intro:
-      "This journal is the search and learning hub for Continua Rise. It translates the research on creatine for midlife women into clear, direct answers about strength, cognition, consistency, and daily use.",
+      "This journal is the search and learning hub for Restore by Continua. It translates the research around creatine, 320mg magnesium glycinate, and nighttime routine design into clear answers for midlife women who want support without hype.",
     summary:
-      "Explore how creatine fits into a Gen X woman's routine, what the research says about midlife strength and cognition, and how to take it consistently.",
+      "Explore how Restore fits into a Gen X woman's evening routine, what the research says about creatine and magnesium, and how to build a night ritual you can actually keep.",
     supportingPoints: [
       "Answer-first explainers",
       "Cited research",
       "Midlife-focused guidance",
-      "Direct paths back to shop and science",
+      "Direct paths back to Restore and science",
     ],
     faqs: [
       {
-        question: "Why build an SEO hub around Gen X women and creatine?",
+        question: "Why build the journal around Restore and Gen X women?",
         answer:
-          "Gen X women are actively looking for support that feels relevant to midlife strength, cognition, and consistency. The journal is built to answer those exact questions in language that is clear enough for search and specific enough for real decision-making.",
+          "Gen X women are actively looking for support that feels relevant to midlife strength, recovery, and routine consistency. The journal is built to answer those questions directly in language that is clear enough for search and specific enough for real decision-making.",
       },
       {
         question: "What topics does the journal cover first?",
         answer:
-          "The first cluster covers creatine for Gen X women, midlife strength, brain fog and focus, and how to take creatine daily in a way that is easy to maintain.",
+          "The first cluster covers Restore's nighttime positioning, creatine timing, magnesium glycinate context, and how to build an evening ritual that is easy to maintain.",
       },
       {
-        question: "Will the journal only focus on menopause?",
+        question: "Will the journal only focus on sleep?",
         answer:
-          "No. Menopause is part of the conversation, but the journal is intentionally broader than a menopause-only framing so it can serve women throughout the full midlife transition.",
+          "No. Sleep and evening rhythm are part of the conversation, but the journal is intentionally broader than an insomnia-only framing so it can also serve women thinking about strength, recovery, mental steadiness, and long-term adherence.",
       },
     ] satisfies FAQItem[],
     entries: [
       {
-        slug: "creatine-for-gen-x-women",
+        slug: "restore-for-gen-x-women",
         eyebrow: "Gen X women",
-        title: "Creatine for Gen X women: why midlife is the moment to care.",
+        title: "Restore for Gen X women: why a softer night ritual can work better.",
         description:
-          "An answer-first guide to why creatine matters for Gen X women, including strength, cognition, bone support, and the habits that make supplementation sustainable.",
+          "An answer-first guide to why Restore may resonate with Gen X women, including evening consistency, strength support, and why format matters as much as formula.",
         summary:
-          "Creatine matters in midlife because the benefits women care about most, including strength, resilience, and cognitive support, become more relevant as hormones shift.",
+          "Restore can make sense in midlife because women often need less hype, more consistency, and a night ritual that feels supportive enough to repeat.",
         keywords: [
-          "creatine for gen x women",
-          "creatine for women over 40",
-          "creatine for women over 50",
-          "midlife supplements for women",
+          "restore by continua",
+          "night ritual for women over 40",
+          "supplements for gen x women",
+          "evening ritual women",
         ],
         answer:
-          "Creatine is especially relevant for Gen X women because midlife is when support for muscle, bone, cognition, and daily energy resilience becomes more valuable. Reviews focused on women's health describe creatine as a promising strategy across the female lifespan, with particular relevance as estrogen changes influence muscle and brain physiology.",
+          "Restore is especially relevant for Gen X women because midlife is when women start optimizing for resilience and routines they can actually keep. The formula keeps creatine at the center, adds magnesium glycinate to fit a nighttime rhythm, and uses a softer ritual format that feels more realistic than another morning stack.",
         supportingPoints: [
-          "Midlife muscle support",
-          "Cognitive relevance",
-          "Bone and resilience context",
-          "Easy daily ritual",
+          "Midlife routine design",
+          "Creatine consistency",
+          "Evening ritual fit",
+          "Supportive, not harsh",
         ],
         sections: [
           {
             title: "Why Gen X women are asking different questions",
             paragraphs: [
-              "The conversation around supplements changes in midlife. Gen X women are often less interested in hype and more interested in preserving what helps them feel strong, sharp, and steady over time.",
-              "That is why creatine has become more relevant. It sits at the intersection of muscle performance, cellular energy, and cognitive support, which makes it more useful than a gym-only framing suggests.",
+              "The supplement conversation changes in midlife. Gen X women are often less interested in hype and more interested in preserving what helps them feel strong, steady, and recovered over time.",
+              "That is why nighttime ritual design starts to matter. A product can be clinically familiar on paper and still fail in real life if the format feels noisy, inconvenient, or too intense to repeat.",
             ],
           },
           {
-            title: "What the research highlights",
+            title: "What the research still points back to",
             paragraphs: [
-              "A lifespan review on women's health describes creatine as potentially beneficial across female life stages, including menopause and post-menopause, with discussion of strength, mood, and cognition.",
-              "A newer review focused on women's health continues that theme, arguing that creatine deserves more attention as a female-specific support strategy rather than a supplement reserved for younger male athletes.",
+              "Women's-health reviews still point back to creatine when the conversation is muscle, cognition, and midlife resilience. That part of the formula remains the anchor in Restore.",
+              "Magnesium adds the evening frame, but the most important scientific throughline is still consistency. Restore is designed around the idea that adherence wins over complexity.",
             ],
             bullets: [
-              "Creatine helps replenish phosphocreatine stores tied to ATP production.",
-              "Midlife women face changing demands around muscle and cognition.",
-              "The strongest case is usually for daily consistency, not occasional use.",
+              "Creatine remains the best-supported part of the formula.",
+              "Format influences whether women keep a routine.",
+              "Nighttime positioning only works if it feels good enough to repeat.",
             ],
           },
           {
-            title: "Why format matters",
+            title: "Why Restore is built this way",
             paragraphs: [
-              "For Gen X women, adherence matters more than novelty. A product only works if it becomes part of real life.",
-              "That is where ritual matters. A warm, easy morning format can make a clinically familiar dose feel more compatible with the life women are already living.",
+              "Restore uses warm water, sachets, and a lavender hibiscus profile because format can lower friction at the exact point in the day where women are deciding whether they have the energy to do one more thing.",
+              "That softer evening design is the product decision. It translates a familiar creatine dose into a calmer ritual women may actually want to keep.",
             ],
           },
         ],
         faqs: [
           {
-            question: "Is creatine only for athletes?",
+            question: "Is Restore only about sleep?",
             answer:
-              "No. The modern discussion around creatine increasingly includes aging, cognition, and women's health, not only sports performance.",
+              "No. Restore is positioned around nighttime use, but the broader goals are strength, recovery, consistency, and a steadier evening rhythm.",
           },
           {
-            question: "Why is creatine especially relevant after 40?",
+            question: "Why might a nighttime ritual work better after 40?",
             answer:
-              "After 40, more women begin focusing on preserving strength, confidence in movement, and mental sharpness. Those goals align closely with the areas where creatine is most often discussed in midlife reviews.",
+              "After 40, many women do better with routines that feel less effortful and more restorative. If a supplement fits that emotional and practical reality, adherence usually improves.",
           },
         ],
         citations: [
           coreCitations.womenLifespan,
           coreCitations.womenBridge,
+          coreCitations.magnesiumFactSheet,
         ],
-        publishedAt: "2026-03-19",
-        modifiedAt: "2026-03-19",
+        publishedAt: "2026-03-20",
+        modifiedAt: "2026-03-20",
         cta: {
-          label: "Shop Continua Rise",
+          label: "Shop Restore by Continua",
           href: "/shop#buy-box",
         },
       },
       {
-        slug: "creatine-for-midlife-strength",
-        eyebrow: "Midlife strength",
-        title: "Creatine for midlife strength: what women want to preserve.",
+        slug: "can-you-take-creatine-at-night",
+        eyebrow: "Evening timing",
+        title: "Can women take creatine at night? Yes, if that is the ritual they will keep.",
         description:
-          "A clear guide to why creatine is part of the midlife strength conversation for women, especially when the goal is resilience, not bodybuilding.",
+          "A clear guide to why nighttime creatine can make sense for women, especially when consistency matters more than a perfect supplement clock.",
         summary:
-          "Creatine belongs in the midlife strength conversation because strength in this stage of life is about preserving capability, resilience, and confidence in movement.",
+          "Creatine does not need a rigid morning-only routine; for many women the best timing is the one that becomes automatic.",
         keywords: [
-          "creatine for midlife strength",
-          "creatine for women muscle",
-          "creatine menopause strength",
-          "women over 40 strength supplements",
-        ],
-        answer:
-          "Creatine can support the kind of strength women want to keep in midlife: the ability to train, recover, move confidently, and protect lean mass over time. Reviews on aging muscle and women's health consistently place creatine in that discussion, especially alongside resistance training.",
-        supportingPoints: [
-          "Strength preservation",
-          "Resistance training support",
-          "Muscle and bone context",
-          "Recovery-oriented framing",
-        ],
-        sections: [
-          {
-            title: "Strength means more in midlife",
-            paragraphs: [
-              "For midlife women, strength is practical. It affects how confidently you move, how well you train, and how much physical reserve you feel in daily life.",
-              "That broader definition is why creatine becomes more compelling with age. It is less about chasing a physique outcome and more about protecting physical capability.",
-            ],
-          },
-          {
-            title: "How creatine fits the strength conversation",
-            paragraphs: [
-              "The ISSN position stand remains one of the clearest summaries of creatine monohydrate's role in training adaptation and high-intensity exercise support.",
-              "Reviews focused on aging muscle and bone add a midlife lens, describing creatine as relevant to muscle performance and, in some contexts, bone-related outcomes and fall-risk factors.",
-            ],
-            bullets: [
-              "Creatine is most often discussed as a support to training, not a replacement for it.",
-              "Midlife women often care about preserving lean mass and function, not only weight on a scale.",
-              "Consistency matters more than complexity.",
-            ],
-          },
-          {
-            title: "Why this matters for Continua Rise",
-            paragraphs: [
-              "Continua Rise frames creatine in the language women actually use: strength, consistency, clarity, and a routine worth keeping.",
-              "That makes it easier to connect the science to the lived goal, which is preserving the ability to feel capable and physically steady over time.",
-            ],
-          },
-        ],
-        faqs: [
-          {
-            question: "Should creatine replace strength training?",
-            answer:
-              "No. The strongest case for creatine in midlife is usually as a support to regular resistance training and movement, not a substitute for them.",
-          },
-          {
-            question: "Does creatine help women who are not trying to bodybuild?",
-            answer:
-              "Yes. Midlife women often use creatine to support performance, resilience, and lean-mass preservation rather than bodybuilding goals.",
-          },
-        ],
-        citations: [
-          coreCitations.issn,
-          coreCitations.agingBone,
-          coreCitations.womenBridge,
-        ],
-        publishedAt: "2026-03-19",
-        modifiedAt: "2026-03-19",
-        cta: {
-          label: "Read The Science",
-          href: "/science",
-        },
-      },
-      {
-        slug: "creatine-for-brain-fog-and-focus",
-        eyebrow: "Brain fog and focus",
-        title: "Creatine for brain fog and focus: why women keep asking about it.",
-        description:
-          "Explore why creatine is increasingly part of the brain fog and focus conversation for women in midlife, and what the reviews actually say.",
-        summary:
-          "Creatine is part of the brain fog conversation because women's health reviews increasingly discuss it as relevant to cognition, mood, and brain energy in addition to muscle.",
-        keywords: [
-          "creatine for brain fog women",
-          "creatine focus women",
-          "creatine cognition menopause",
-          "women brain fog supplements",
-        ],
-        answer:
-          "Women keep asking about creatine for brain fog and focus because the discussion around creatine has widened beyond muscle. Reviews focused on women's health now describe potential relevance to cognition and mood, which makes it especially interesting in midlife when mental clarity can feel more variable.",
-        supportingPoints: [
-          "Cognition and ATP",
-          "Midlife mental clarity",
-          "Brain-energy framing",
-          "Daily ritual adherence",
-        ],
-        sections: [
-          {
-            title: "Why the cognition conversation is growing",
-            paragraphs: [
-              "Brain fog is one of the most common reasons women begin searching for new support in midlife. It is also one of the reasons creatine has moved beyond sports nutrition conversations.",
-              "When reviews discuss creatine and cognition, they are usually pointing back to energy metabolism in the brain. That makes creatine relevant to a broader wellness conversation than most women were originally taught.",
-            ],
-          },
-          {
-            title: "What the reviews say",
-            paragraphs: [
-              "The 2021 lifespan review on women's health discusses cognition and mood as part of creatine's female-specific relevance, especially as hormonal context changes.",
-              "The more recent review bridging menstruation through menopause keeps cognition in the picture as an active research area, reinforcing that creatine is being taken seriously as a women's-health topic rather than a niche gym supplement.",
-            ],
-            bullets: [
-              "Creatine's brain relevance is tied to cellular energy support.",
-              "Women in midlife often search for clarity, steadiness, and consistency rather than stimulation alone.",
-              "The best framing is support, not miracle claims.",
-            ],
-          },
-          {
-            title: "Why ritual still matters",
-            paragraphs: [
-              "Even when the goal is mental clarity, the way a product fits into life still matters. A calm, warm ritual often has a better chance of staying in place than a cold scoop-and-shake approach.",
-              "That is one reason Continua Rise ties a familiar creatine dose to a gentler daily experience.",
-            ],
-          },
-        ],
-        faqs: [
-          {
-            question: "Is creatine a stimulant?",
-            answer:
-              "No. Creatine is generally discussed in terms of cellular energy support rather than stimulant effects.",
-          },
-          {
-            question: "Can I talk about creatine for brain fog responsibly?",
-            answer:
-              "Yes, but carefully. The responsible framing is that women's-health reviews discuss creatine as relevant to cognition and brain energy, not that it guarantees a specific outcome for every person.",
-          },
-        ],
-        citations: [
-          coreCitations.womenLifespan,
-          coreCitations.womenBridge,
-        ],
-        publishedAt: "2026-03-19",
-        modifiedAt: "2026-03-19",
-        cta: {
-          label: "See Dr. Kane's Note",
-          href: "/doctors-note",
-        },
-      },
-      {
-        slug: "how-to-take-creatine-daily",
-        eyebrow: "Daily use",
-        title: "How to take creatine daily: the easiest routine to keep.",
-        description:
-          "A practical guide to taking creatine daily, including common maintenance dosing, why routine matters, and how warm water can make it easier to stay consistent.",
-        summary:
-          "The easiest way to take creatine daily is to choose a consistent moment, use a familiar daily dose, and remove as much friction from the ritual as possible.",
-        keywords: [
-          "how to take creatine daily",
-          "5g creatine daily women",
+          "creatine at night women",
           "best time to take creatine women",
-          "creatine hot water",
+          "night creatine routine",
+          "creatine timing women over 40",
         ],
         answer:
-          "The best daily creatine routine is the one you can repeat. Sports-nutrition guidance commonly references a daily maintenance range around 3 to 5 grams after saturation, and many women do best when that dose is attached to a fixed morning ritual rather than left to memory later in the day.",
+          "Yes. Creatine timing is usually less important than consistent daily intake, which means women can take it at night if that is the moment that fits their real life. Restore is built around that principle: consistency first, timing perfection second.",
         supportingPoints: [
-          "Daily maintenance dose",
-          "Warm-water ritual",
-          "Adherence over perfection",
-          "Low-friction routine",
+          "Timing flexibility",
+          "Daily adherence",
+          "Night routine fit",
+          "Consistency over hacks",
         ],
         sections: [
           {
-            title: "The routine matters more than the hack",
+            title: "Why timing gets overcomplicated",
             paragraphs: [
-              "The most useful creatine strategy is not usually about timing tricks. It is about making the routine frictionless enough to happen every day.",
-              "That is why warm ritual products can be powerful. They turn a supplement from an abstract intention into a fixed daily behavior.",
+              "Women are often told to optimize supplements down to the minute, but creatine does not usually need that kind of precision. The stronger recommendation is to take it consistently enough for it to become part of your baseline routine.",
+              "That opens up the evening window. If nighttime is the only moment that feels protected, that is often the better choice than an idealized morning routine that never sticks.",
             ],
           },
           {
-            title: "What daily dosing guidance usually looks like",
+            title: "What the evidence actually supports",
             paragraphs: [
-              "The ISSN position stand and related evidence reviews often describe a common maintenance intake of roughly 3 to 5 grams per day after initial saturation, with 5 grams remaining a familiar default in consumer products.",
-              "That makes a single-sachet 5 gram format straightforward for women who want clarity and do not want to manage scoops or calculations every morning.",
+              "The clearest evidence around creatine still focuses on the compound itself rather than an exact time of day. That is why consumer routines should be built around adherence, not timing anxiety.",
+              "For midlife women, that adherence framing is especially useful because the real problem is often not choosing a time. It is choosing a time that can survive the rest of life.",
             ],
             bullets: [
-              "Pick one time of day and keep it stable.",
-              "Use a format that dissolves cleanly and feels easy to repeat.",
-              "Prioritize consistency before optimization.",
+              "Creatine monohydrate is still the best-supported form.",
+              "Daily use matters more than rigid timing.",
+              "A stable nighttime cue can outperform a missed morning intention.",
             ],
           },
           {
-            title: "Why warm water works",
+            title: "Why Restore is framed around night",
             paragraphs: [
-              "Warm water improves the experience of daily use for many women because it helps the powder dissolve cleanly and feels more ritual-friendly than a rushed cold drink.",
-              "That is the operating idea behind Continua Rise: make the science easy to keep by making the moment itself more appealing.",
+              "Restore turns creatine into part of a calmer PM ritual rather than another daytime task. That design choice is practical, not mystical.",
+              "If the evening is where consistency lives, then taking creatine at night can be the smarter routine for real women with real schedules.",
             ],
           },
         ],
         faqs: [
           {
-            question: "What is a common daily creatine dose for maintenance?",
+            question: "Do I lose benefits if I take creatine at night?",
             answer:
-              "Many evidence reviews and sports-nutrition references discuss roughly 3 to 5 grams per day as a common maintenance range, which is why 5 grams is such a familiar daily format.",
+              "Not usually. The more important factor is sustained daily intake over time rather than a perfect clock-time strategy.",
           },
           {
-            question: "Do I have to take creatine at a precise time?",
+            question: "Should nighttime creatine replace training or recovery basics?",
             answer:
-              "Not usually. The more important variable for most people is consistency over time rather than a perfect clock-based schedule.",
+              "No. Creatine supports the larger routine; it does not replace sleep habits, resistance training, nutrition, or movement.",
           },
         ],
         citations: [
@@ -725,10 +623,158 @@ export const siteContent = {
           coreCitations.misconceptions,
           coreCitations.womenLifespan,
         ],
-        publishedAt: "2026-03-19",
-        modifiedAt: "2026-03-19",
+        publishedAt: "2026-03-20",
+        modifiedAt: "2026-03-20",
         cta: {
-          label: "Start With Continua Rise",
+          label: "Read The Science",
+          href: "/science",
+        },
+      },
+      {
+        slug: "why-magnesium-glycinate-at-night",
+        eyebrow: "Magnesium glycinate",
+        title: "Why magnesium glycinate shows up in night routines for women.",
+        description:
+          "Explore why magnesium glycinate is commonly used in night routines for women, what the evidence says, and where the claims should stay modest.",
+        summary:
+          "Magnesium glycinate appears in nighttime routines because magnesium is relevant to muscle and nerve function and is being studied for sleep, but the honest framing is supportive rather than definitive.",
+        keywords: [
+          "magnesium glycinate at night",
+          "magnesium glycinate women",
+          "magnesium sleep evidence",
+          "restore by continua magnesium",
+        ],
+        answer:
+          "Magnesium glycinate shows up in night routines because magnesium is essential to muscle and nerve function, and some sleep research suggests supplementation may help some adults. The right framing is still cautious: the evidence is mixed, the benefits are not guaranteed, and magnesium glycinate fits best as part of a supportive evening ritual rather than a cure-all.",
+        supportingPoints: [
+          "Magnesium basics",
+          "Sleep evidence is mixed",
+          "Glycinate is a PM-friendly fit",
+          "Supportive framing only",
+        ],
+        sections: [
+          {
+            title: "Why magnesium is even in the conversation",
+            paragraphs: [
+              "Magnesium is not a niche ingredient. It is a required mineral involved in muscle and nerve function, protein synthesis, and other core processes women care about as they build a more stable routine.",
+              "That alone does not make every magnesium product useful, but it explains why magnesium keeps showing up in the evening supplement conversation.",
+            ],
+          },
+          {
+            title: "What the sleep literature actually says",
+            paragraphs: [
+              "Systematic reviews on magnesium and sleep point to possible benefits in some groups, but they also stress that the evidence quality is limited and inconsistent.",
+              "A recent bisglycinate trial reported modest improvements in insomnia severity scores, which is encouraging, but still not a reason to market the ingredient as a guaranteed sleep fix.",
+            ],
+            bullets: [
+              "Possible benefit does not equal guaranteed outcome.",
+              "The evidence is stronger for support language than for hard claims.",
+              "Magnesium glycinate belongs in an honest nighttime routine story, not an overpromised one.",
+            ],
+          },
+          {
+            title: "Why glycinate fits Restore",
+            paragraphs: [
+              "Restore uses magnesium glycinate because it aligns with the softer PM positioning of the product. The form helps the formula feel coherent with an evening ritual rather than bolted onto a daytime performance story.",
+              "That coherence matters. Women are more likely to keep a ritual that makes emotional sense in the moment they are being asked to use it.",
+            ],
+          },
+        ],
+        faqs: [
+          {
+            question: "Does magnesium glycinate guarantee sleep improvement?",
+            answer:
+              "No. The current evidence supports cautious, supportive language rather than absolute promises.",
+          },
+          {
+            question: "Why not make stronger sleep claims if magnesium is popular at night?",
+            answer:
+              "Because popularity is not the same thing as conclusive evidence. The responsible position is that magnesium is being studied for sleep-related support and may help some adults, not that it works the same way for everyone.",
+          },
+        ],
+        citations: [
+          coreCitations.magnesiumFactSheet,
+          coreCitations.magnesiumSleepReview,
+          coreCitations.magnesiumBisglycinateTrial,
+        ],
+        publishedAt: "2026-03-20",
+        modifiedAt: "2026-03-20",
+        cta: {
+          label: "See Dr. Kane's Note",
+          href: "/doctors-note",
+        },
+      },
+      {
+        slug: "how-to-build-a-night-ritual-youll-keep",
+        eyebrow: "Night ritual",
+        title: "How to build a night ritual you will actually keep.",
+        description:
+          "A practical guide to building a sustainable evening ritual, including timing, flavor, friction reduction, and why Restore is designed the way it is.",
+        summary:
+          "The best night ritual is the one you can repeat without negotiation, which means choosing a stable cue, lowering friction, and keeping the experience calm enough to want again tomorrow.",
+        keywords: [
+          "night routine women over 40",
+          "how to build a night ritual",
+          "evening supplement routine women",
+          "restore by continua ritual",
+        ],
+        answer:
+          "The best night ritual is the one that feels automatic. That usually means picking a stable evening cue, using a format that dissolves cleanly, and making the moment pleasant enough that consistency stops feeling like work.",
+        supportingPoints: [
+          "Stable evening cue",
+          "Warm-water ritual",
+          "Adherence over perfection",
+          "Low-friction design",
+        ],
+        sections: [
+          {
+            title: "Start with a cue you already trust",
+            paragraphs: [
+              "The strongest routines attach themselves to a moment that already exists: after dinner, after cleaning the kitchen, after a shower, or before reading in bed.",
+              "That cue matters more than motivation. If the moment already belongs to your evening, the ritual has a better chance of lasting.",
+            ],
+          },
+          {
+            title: "Reduce friction until the ritual becomes obvious",
+            paragraphs: [
+              "Single-serve sachets, warm water, and a flavor profile that feels softer than a gym drink all reduce the odds that a routine gets skipped out of irritation or fatigue.",
+              "Restore is designed around exactly that principle. The science can be sound and still fail if the moment feels annoying.",
+            ],
+            bullets: [
+              "Choose one nightly cue and keep it stable.",
+              "Use a format that feels easy to repeat in low-energy moments.",
+              "Prioritize consistency before optimization.",
+            ],
+          },
+          {
+            title: "Why Restore is a warm nighttime ritual",
+            paragraphs: [
+              "Warm water can make a product feel more ritual-friendly than a rushed cold drink or another handful of capsules. For some women, that sensory shift is the whole difference between intention and follow-through.",
+              "That is the operating idea behind Restore: make the science easier to keep by making the evening moment itself more appealing.",
+            ],
+          },
+        ],
+        faqs: [
+          {
+            question: "What matters most in a night ritual?",
+            answer:
+              "Consistency. The ritual should be easy enough to survive tired nights and busy schedules.",
+          },
+          {
+            question: "Does the ritual need to be complicated to work?",
+            answer:
+              "No. The best routines are usually simple, pleasant, and stable enough to repeat without much thought.",
+          },
+        ],
+        citations: [
+          coreCitations.issn,
+          coreCitations.magnesiumFactSheet,
+          coreCitations.womenBridge,
+        ],
+        publishedAt: "2026-03-20",
+        modifiedAt: "2026-03-20",
+        cta: {
+          label: "Start With Restore",
           href: "/shop#buy-box",
         },
       },

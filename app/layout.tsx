@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteContent.site.url),
   title: {
     default: siteContent.site.title,
-    template: "%s | Continua",
+    template: "%s | Restore by Continua",
   },
   description: siteContent.site.description,
   alternates: {
@@ -69,9 +69,9 @@ export default function RootLayout({
           data={[buildWebsiteSchema(), buildOrganizationSchema()]}
         />
         <div className="relative min-h-screen overflow-x-clip">
-          <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[32rem] bg-[radial-gradient(circle_at_top,rgba(216,161,95,0.24),transparent_40%),linear-gradient(180deg,rgba(255,255,255,0.38),rgba(255,255,255,0))]" />
-          <div className="pointer-events-none absolute left-[-8rem] top-[26rem] -z-10 h-72 w-72 rounded-full bg-[rgba(198,118,51,0.14)] blur-[130px]" />
-          <div className="pointer-events-none absolute right-[-6rem] top-[68rem] -z-10 h-72 w-72 rounded-full bg-[rgba(112,59,28,0.12)] blur-[120px]" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[32rem] bg-[radial-gradient(circle_at_top,rgba(221,207,221,0.18),transparent_42%),linear-gradient(180deg,rgba(255,255,255,0.36),rgba(255,255,255,0))]" />
+          <div className="pointer-events-none absolute left-[-8rem] top-[26rem] -z-10 h-72 w-72 rounded-full bg-[rgba(229,220,224,0.14)] blur-[130px]" />
+          <div className="pointer-events-none absolute right-[-6rem] top-[68rem] -z-10 h-72 w-72 rounded-full bg-[rgba(205,194,201,0.1)] blur-[120px]" />
 
           <SiteHeader />
           <div className="relative z-10">{children}</div>

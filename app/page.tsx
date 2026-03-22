@@ -24,7 +24,7 @@ export default function HomePage() {
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1.02fr)_minmax(0,0.98fr)] lg:items-stretch">
           <div className="surface-card flex flex-col justify-between p-8 sm:p-10 lg:p-14">
             <div className="space-y-8">
-              <p className="eyebrow">The rise ritual</p>
+              <p className="eyebrow">The restore ritual</p>
               <div className="space-y-6">
                 <h1 className="display-title text-5xl leading-[0.9] sm:text-6xl lg:text-7xl">
                   {hero.title}
@@ -43,8 +43,8 @@ export default function HomePage() {
                 {hero.action.label}
               </Link>
               <p className="max-w-sm text-sm leading-6 text-[color:rgba(30,33,30,0.56)]">
-                Daily creatine support for women, delivered in a warm ginger
-                honey ritual designed to be easy to love.
+                Evening support for women, delivered in a lavender hibiscus
+                ritual designed to feel calm enough to keep.
               </p>
             </div>
           </div>
@@ -78,9 +78,8 @@ export default function HomePage() {
                 {transparency.pullQuote}
               </p>
               <p className="text-sm leading-6 text-[color:rgba(30,33,30,0.56)]">
-                Designed to support women&apos;s strength, clarity, and
-                consistency
-                through one grounded daily ritual.
+                Designed to support women&apos;s strength, recovery, and
+                consistency through one grounded nightly ritual.
               </p>
             </div>
           </div>

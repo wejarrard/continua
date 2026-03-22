@@ -127,7 +127,7 @@ export default function JournalPage() {
               href="/shop#buy-box"
               className="inline-flex min-h-12 items-center justify-center rounded-full bg-[var(--continua-charcoal)] px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-[rgb(24,26,24)]"
             >
-              Shop Continua Rise
+              Shop Restore by Continua
             </Link>
             <Link
               href="/science"

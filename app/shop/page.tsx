@@ -33,7 +33,7 @@ export default function ShopPage() {
       />
       <section id="buy-box" className="page-shell scroll-mt-28">
         <div className="mb-10 max-w-3xl space-y-4">
-          <p className="eyebrow">The daily ritual</p>
+          <p className="eyebrow">The evening ritual</p>
           <p className="display-title text-5xl leading-[0.9] sm:text-6xl">
             {product.title}
           </p>

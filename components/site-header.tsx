@@ -14,7 +14,7 @@ export function SiteHeader() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[color:rgba(30,33,30,0.08)] bg-[rgba(245,242,235,0.9)] backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-[color:rgba(30,33,30,0.08)] bg-[rgba(255,251,248,0.88)] backdrop-blur-xl">
       <div className="page-shell py-4">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>

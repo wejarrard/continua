@@ -87,7 +87,7 @@ export function buildOrganizationSchema() {
     "@type": "Organization",
     name: siteName,
     url: siteUrl,
-    brand: "Continua Rise",
+    brand: "Restore by Continua",
     description: siteContent.site.description,
     logo: absoluteUrl(siteContent.site.defaultSocialImage),
   } satisfies Thing;
@@ -142,10 +142,10 @@ export function buildProductSchema() {
     description: siteContent.product.description,
     brand: {
       "@type": "Brand",
-      name: "Continua",
+      name: "Restore by Continua",
     },
     image: [absoluteUrl(siteContent.site.defaultSocialImage)],
-    sku: "continua-rise-30-day",
+    sku: "restore-by-continua-30-day",
     category: "Dietary Supplement",
     offers: {
       "@type": "Offer",
