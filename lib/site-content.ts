@@ -170,8 +170,7 @@ export const siteContent = {
       "Restore by Continua | Evening creatine + magnesium ritual for Gen X women.",
     description:
       "Restore by Continua pairs 5g of creatine monohydrate with magnesium glycinate in a lavender hibiscus night ritual for Gen X women who want strength, recovery, and consistency they can actually keep.",
-    footerNote:
-      "Educational information only. Review all product claims for medical, advertising, and regulatory compliance before launch.",
+    footerNote: "",
     url: "https://risebycontinua.com",
     defaultSocialImage: "/og-risebycontinua.png",
     defaultSocialImageAlt:
