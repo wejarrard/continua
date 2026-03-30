@@ -7,8 +7,11 @@ import { WaitlistModal } from "./waitlist-modal";
 type ProductPurchasePanelProps = {
   title: string;
   price: string;
+  subscriptionPrice: string;
+  subscriptionSavingsLabel: string;
   description: string;
   buttonLabel: string;
+  subscriptionButtonLabel: string;
   details: readonly string[];
   waitlist: {
     title: string;
@@ -110,12 +113,21 @@ function WalletMark({
 export function ProductPurchasePanel({
   title,
   price,
+  subscriptionPrice,
+  subscriptionSavingsLabel,
   description,
   buttonLabel,
+  subscriptionButtonLabel,
   details,
   waitlist,
 }: ProductPurchasePanelProps) {
   const [open, setOpen] = useState(false);
+  const [purchaseType, setPurchaseType] = useState<"one-time" | "subscription">(
+    "one-time",
+  );
+
+  const ctaLabel =
+    purchaseType === "subscription" ? subscriptionButtonLabel : buttonLabel;
 
   return (
     <>
@@ -136,12 +148,69 @@ export function ProductPurchasePanel({
             </p>
           </div>
 
+          <div className="space-y-3">
+            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.22em] text-[color:rgba(30,33,30,0.56)]">
+              Purchase options
+            </p>
+            <div className="grid gap-3">
+              <button
+                type="button"
+                onClick={() => setPurchaseType("one-time")}
+                className={`rounded-[1.25rem] border px-4 py-4 text-left transition ${
+                  purchaseType === "one-time"
+                    ? "border-[var(--continua-charcoal)] bg-white shadow-[0_10px_24px_rgba(36,23,20,0.08)]"
+                    : "border-[color:rgba(30,33,30,0.1)] bg-white/60 hover:border-[color:rgba(30,33,30,0.2)]"
+                }`}
+                aria-pressed={purchaseType === "one-time"}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--continua-charcoal)]">
+                      One-time purchase
+                    </p>
+                    <p className="mt-1 text-xs uppercase tracking-[0.16em] text-[color:rgba(30,33,30,0.52)]">
+                      Ships once
+                    </p>
+                  </div>
+                  <p className="text-2xl tracking-[-0.04em] text-[var(--continua-charcoal)]">
+                    {price}
+                  </p>
+                </div>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setPurchaseType("subscription")}
+                className={`rounded-[1.25rem] border px-4 py-4 text-left transition ${
+                  purchaseType === "subscription"
+                    ? "border-[var(--continua-amber-deep)] bg-[rgba(255,252,246,0.9)] shadow-[0_10px_24px_rgba(90,60,24,0.1)]"
+                    : "border-[color:rgba(166,145,92,0.18)] bg-[rgba(255,252,246,0.6)] hover:border-[color:rgba(166,145,92,0.32)]"
+                }`}
+                aria-pressed={purchaseType === "subscription"}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--continua-charcoal)]">
+                      Monthly subscription
+                    </p>
+                    <p className="mt-1 text-xs uppercase tracking-[0.16em] text-[var(--continua-amber-deep)]">
+                      {subscriptionSavingsLabel}
+                    </p>
+                  </div>
+                  <p className="text-2xl tracking-[-0.04em] text-[var(--continua-charcoal)]">
+                    {subscriptionPrice}
+                  </p>
+                </div>
+              </button>
+            </div>
+          </div>
+
           <button
             type="button"
             onClick={() => setOpen(true)}
             className="inline-flex min-h-16 w-full items-center justify-center rounded-full bg-[var(--continua-charcoal)] px-6 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--continua-alabaster)] transition hover:bg-[rgb(24,26,24)]"
           >
-            {buttonLabel}
+            {ctaLabel}
           </button>
 
           <div className="space-y-3">

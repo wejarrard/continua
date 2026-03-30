@@ -262,11 +262,14 @@ export const siteContent = {
     },
     title: "Restore by Continua (30-Day Supply)",
     price: "$70.00",
+    subscriptionPrice: "$56.00",
+    subscriptionSavingsLabel: "Save 20% with monthly delivery",
     shortPrice: "$70",
     priceValue: 70,
     description:
       "A 30-day evening ritual for women who want a clinically familiar creatine dose paired with 320mg magnesium glycinate, warmth, and consistency.",
     buttonLabel: "Checkout - $70",
+    subscriptionButtonLabel: "Subscribe monthly - save 20%",
     details: [
       "30 single-serve sachets",
       "5g creatine monohydrate per serving",
