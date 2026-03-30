@@ -47,8 +47,11 @@ export default function ShopPage() {
           <ProductPurchasePanel
             title={product.title}
             price={product.price}
+            subscriptionPrice={product.subscriptionPrice}
+            subscriptionSavingsLabel={product.subscriptionSavingsLabel}
             description={product.description}
             buttonLabel={product.buttonLabel}
+            subscriptionButtonLabel={product.subscriptionButtonLabel}
             details={product.details}
             waitlist={product.waitlist}
           />
