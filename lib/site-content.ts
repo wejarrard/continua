@@ -209,6 +209,7 @@ export const siteContent = {
       },
       media: {
         alt: "Restore by Continua sachet imagery styled for a lavender hibiscus evening ritual.",
+        src: "/homepage-hero.png",
         variant: "powder",
       } satisfies MediaAsset,
     },
